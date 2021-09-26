@@ -1,12 +1,15 @@
 import React from "react";
+//REACT-FONT-AWESOME FONTS
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const style = {
   linkFont: {
-    font: "50rem",
+    fontSize: "25px",
     fontWeight: 500,
   },
   nameFont: {
-    font: "100rem",
+    fontSize: "60px",
     fontWeight: 700,
     letterSpacing: 0.6,
   },
@@ -14,9 +17,17 @@ const style = {
 
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav
+      className="navbar navbar-expand-lg navbar-dark"
+      style={{ background: "#000301" }}
+    >
       <div className="container">
-        <a className="navbar-brand" href="#" style={style.nameFont} id="home">
+        <a
+          className="navbar-brand align-items-start"
+          href="#"
+          style={style.nameFont}
+          id="home"
+        >
           Jennifer Davila
         </a>
         <button
@@ -28,11 +39,11 @@ const Navigation = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <FontAwesomeIcon icon={faBars} style={{ color: "#9A8AEC" }} />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto align-self-end">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link" href="#home" style={style.linkFont}>
                 Home <span className="sr-only">(current)</span>
