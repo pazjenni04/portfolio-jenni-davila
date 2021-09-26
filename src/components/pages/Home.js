@@ -18,7 +18,7 @@ const style = {
   },
 };
 
-function Header() {
+function Home() {
   return (
     <div className="header-wrapper">
       <div className="main-info">
@@ -30,7 +30,7 @@ function Header() {
           backSpeed={60}
           loop
         ></Typed>
-        <a href="#" className="btn-main-offer">
+        <a href="#contact" className="btn-main-offer">
           Contact Me
         </a>
       </div>
@@ -38,4 +38,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Home;

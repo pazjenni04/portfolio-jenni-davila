@@ -1,21 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
-import Navigation from "./components/Navigation";
-import Project from "./components/Project";
-// import Footer from "./components/Footer";
 import "./App.css";
-
-//particles react package
-import { tsParticles } from "tsparticles";
+//imports all pages that are being renderd
+import Container from "./components/page-container";
 
 function App() {
-  return (
-    <React.Fragment>
-      <Navigation />;
-      <Header />
-      <Project />
-    </React.Fragment>
-  );
+  return <Container />;
 }
 
 export default App;

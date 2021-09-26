@@ -75,3 +75,32 @@ body {
   width: 100vw;
   z-index: 1;
 }
+
+/* Footer */
+.contactinfo h2 {
+  display: flexbox;
+  position: relative;
+  background-color: #000301;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Yaldevi", sans-serif;
+  color: white;
+  font-size: 40px;
+}
+
+.contactinfo {
+  display: flexbox;
+  position: relative;
+  background-color: #000301;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Yaldevi", sans-serif;
+  color: white;
+  font-size: 30px;
+}

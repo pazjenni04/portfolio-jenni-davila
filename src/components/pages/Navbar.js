@@ -15,7 +15,7 @@ const style = {
   },
 };
 
-const Navigation = () => {
+const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark"
@@ -71,4 +71,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Navbar;
