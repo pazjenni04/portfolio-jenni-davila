@@ -15,7 +15,7 @@ This webpage showcases my most recent professional portfolio and some of the pro
 
 ## **Demonstration**
 
-![The following is a demo of my profile](src\images\profile.gif)
+![The following is a demo of my profile](https://github.com/pazjenni04/portfolio-jenni-davila/blob/main/src/images/profile.gif?raw=true)
 
 ## **Technologies**
 
