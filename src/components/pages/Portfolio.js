@@ -6,8 +6,6 @@ const Fitness = require("../../images/fitness-tracker.png");
 const Community = require("../../images/community-sidekicks.png");
 const Company = require("../../images/company-directory.png");
 
-const images = [Fitness, Community, Company];
-
 const projects = [
   {
     name: "Community Sidekicks",
