@@ -2,6 +2,8 @@ import React from "react";
 //REACT-FONT-AWESOME FONTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+import Resume from "./FullStackResume.pdf";
 
 const style = {
   linkFont: {
@@ -22,14 +24,6 @@ const Navbar = () => {
       style={{ background: "#000301" }}
     >
       <div className="container">
-        <a
-          className="navbar-brand align-items-start"
-          href="#"
-          style={style.nameFont}
-          id="home"
-        >
-          Jennifer Davila
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -42,26 +36,39 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} style={{ color: "#9A8AEC" }} />
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="#home" style={style.linkFont}>
-                Home <span className="sr-only">(current)</span>
-              </a>
-            </li>
+            <Link to="/">
+              <li className="nav-item active">
+                <a className="nav-link" href="/" style={style.linkFont}>
+                  Home <span className="sr-only">(current)</span>
+                </a>
+              </li>
+            </Link>
+            <Link to="/about">
+              <li className="nav-item">
+                <a className="nav-link" style={style.linkFont}>
+                  About Me
+                </a>
+              </li>
+            </Link>
+            <Link to="/portfolio">
+              <li className="nav-item">
+                <a className="nav-link" style={style.linkFont}>
+                  Portfolio
+                </a>
+              </li>
+            </Link>
+            <Link to="/contact">
+              <li className="nav-item">
+                <a className="nav-link" style={style.linkFont}>
+                  Contact Me
+                </a>
+              </li>
+            </Link>
             <li className="nav-item">
-              <a className="nav-link" style={style.linkFont}>
-                About Me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" style={style.linkFont}>
-                Portfolio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" style={style.linkFont}>
-                Contacts
+              <a href={Resume} className="nav-link" style={style.linkFont}>
+                Resume
               </a>
             </li>
           </ul>
