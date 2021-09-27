@@ -36,7 +36,14 @@ function Home() {
           <p style={style.headerTitle}>Welcome to my page!</p>
           <Typed
             className="typed-text"
-            strings={["HTML5", "CSS", "NODE.JS", "REACT.JS"]}
+            strings={[
+              "HTML5",
+              "CSS3",
+              "NODE.JS",
+              "JQuery",
+              "Bootstrap",
+              "REACT.JS",
+            ]}
             typeSpeed={40}
             backSpeed={60}
             loop
