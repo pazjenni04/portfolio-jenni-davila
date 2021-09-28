@@ -14,7 +14,6 @@ const style = {
 function About() {
   return (
     <div>
-      <Navbar />
       <div className="about-container">
         <h2 className="about-title" style={style.title}>
           A little about me....

@@ -18,7 +18,6 @@ const style = {
 function Footer() {
   return (
     <div>
-      <Navbar />
       <footer className="contactinfo">
         <h2>Contact Me</h2>
         <p>

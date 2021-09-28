@@ -27,7 +27,6 @@ const style = {
 function Home() {
   return (
     <div>
-      <Navbar />
       <div className="header-wrapper">
         <div className="main-info">
           <h1 style={style.nameTitle} className="name">
