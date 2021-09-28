@@ -1,6 +1,5 @@
 import React from "react";
 import Typed from "react-typed";
-import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 
 const style = {

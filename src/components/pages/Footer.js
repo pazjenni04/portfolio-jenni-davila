@@ -4,7 +4,6 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ContactUs from "./Contact";
-import Navbar from "./Navbar";
 
 library.add(faLinkedin, faGithub);
 

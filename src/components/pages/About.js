@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import { Spring } from "react-spring";
 import Thailand from "../../images/Thailand.png";
 import Hiking from "../../images/Hiking.jpg";
