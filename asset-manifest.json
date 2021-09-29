@@ -1,33 +1,33 @@
 {
   "files": {
     "main.css": "/portfolio-jenni-davila/static/css/main.5115b2d5.chunk.css",
-    "main.js": "/portfolio-jenni-davila/static/js/main.1cd42afa.chunk.js",
-    "main.js.map": "/portfolio-jenni-davila/static/js/main.1cd42afa.chunk.js.map",
-    "runtime-main.js": "/portfolio-jenni-davila/static/js/runtime-main.265ebbb8.js",
-    "runtime-main.js.map": "/portfolio-jenni-davila/static/js/runtime-main.265ebbb8.js.map",
+    "main.js": "/portfolio-jenni-davila/static/js/main.0a2cddc7.chunk.js",
+    "main.js.map": "/portfolio-jenni-davila/static/js/main.0a2cddc7.chunk.js.map",
+    "runtime-main.js": "/portfolio-jenni-davila/static/js/runtime-main.8acadcb2.js",
+    "runtime-main.js.map": "/portfolio-jenni-davila/static/js/runtime-main.8acadcb2.js.map",
     "static/css/2.53150396.chunk.css": "/portfolio-jenni-davila/static/css/2.53150396.chunk.css",
-    "static/js/2.89eb5acd.chunk.js": "/portfolio-jenni-davila/static/js/2.89eb5acd.chunk.js",
-    "static/js/2.89eb5acd.chunk.js.map": "/portfolio-jenni-davila/static/js/2.89eb5acd.chunk.js.map",
-    "static/js/3.8d20ea2c.chunk.js": "/portfolio-jenni-davila/static/js/3.8d20ea2c.chunk.js",
-    "static/js/3.8d20ea2c.chunk.js.map": "/portfolio-jenni-davila/static/js/3.8d20ea2c.chunk.js.map",
+    "static/js/2.46ac4a92.chunk.js": "/portfolio-jenni-davila/static/js/2.46ac4a92.chunk.js",
+    "static/js/2.46ac4a92.chunk.js.map": "/portfolio-jenni-davila/static/js/2.46ac4a92.chunk.js.map",
+    "static/js/3.3cee52b8.chunk.js": "/portfolio-jenni-davila/static/js/3.3cee52b8.chunk.js",
+    "static/js/3.3cee52b8.chunk.js.map": "/portfolio-jenni-davila/static/js/3.3cee52b8.chunk.js.map",
     "index.html": "/portfolio-jenni-davila/index.html",
     "static/css/2.53150396.chunk.css.map": "/portfolio-jenni-davila/static/css/2.53150396.chunk.css.map",
     "static/css/main.5115b2d5.chunk.css.map": "/portfolio-jenni-davila/static/css/main.5115b2d5.chunk.css.map",
-    "static/js/2.89eb5acd.chunk.js.LICENSE.txt": "/portfolio-jenni-davila/static/js/2.89eb5acd.chunk.js.LICENSE.txt",
+    "static/js/2.46ac4a92.chunk.js.LICENSE.txt": "/portfolio-jenni-davila/static/js/2.46ac4a92.chunk.js.LICENSE.txt",
     "static/media/FullStackResume.4a8d6e6e.pdf": "/portfolio-jenni-davila/static/media/FullStackResume.4a8d6e6e.pdf",
     "static/media/Hiking.0f321763.jpg": "/portfolio-jenni-davila/static/media/Hiking.0f321763.jpg",
     "static/media/Spain-fountain.c5395f42.jpg": "/portfolio-jenni-davila/static/media/Spain-fountain.c5395f42.jpg",
     "static/media/Thailand.af7d9fff.png": "/portfolio-jenni-davila/static/media/Thailand.af7d9fff.png",
     "static/media/App.css": "/portfolio-jenni-davila/static/media/background-floral.d019dce8.jpg",
-    "static/media/community-sidekicks.png": "/portfolio-jenni-davila/static/media/community-sidekicks.b6e6f067.png",
-    "static/media/company-directory.png": "/portfolio-jenni-davila/static/media/company-directory.d8318f6e.png",
-    "static/media/fitness-tracker.png": "/portfolio-jenni-davila/static/media/fitness-tracker.42c6632e.png"
+    "static/media/community-sidekicks.b6e6f067.png": "/portfolio-jenni-davila/static/media/community-sidekicks.b6e6f067.png",
+    "static/media/company-directory.d8318f6e.png": "/portfolio-jenni-davila/static/media/company-directory.d8318f6e.png",
+    "static/media/fitness-tracker.42c6632e.png": "/portfolio-jenni-davila/static/media/fitness-tracker.42c6632e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.265ebbb8.js",
+    "static/js/runtime-main.8acadcb2.js",
     "static/css/2.53150396.chunk.css",
-    "static/js/2.89eb5acd.chunk.js",
+    "static/js/2.46ac4a92.chunk.js",
     "static/css/main.5115b2d5.chunk.css",
-    "static/js/main.1cd42afa.chunk.js"
+    "static/js/main.0a2cddc7.chunk.js"
   ]
 }
